@@ -131,5 +131,12 @@ mongoose.connection.once('open', function(){
     console.log('Successfully connected')
 })
 
+
+if(process.env.NODE_ENV === 'production'){
+  server.use(express.static(path.join(__dirname, 'frontend/build')));
+  server.get('*', (req,res)=> {res.sendFile(path.resolve(__dirname, 'frontend', 'build', 'index.html'));
+});
+}
+
 const PORT = process.env.PORT||8000
 server.listen(PORT, ()=>{console.log('Server running')})
