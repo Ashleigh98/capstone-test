@@ -27,6 +27,7 @@ server.use(cors({
     methods: 'GET, POST, PUT, DELETE',
     credentials: true
 }))
+server.use(express.static(path.join(__dirname,'frontend/build')));
 
 //google passport login
 passport.use(new GoogleStrategy({
