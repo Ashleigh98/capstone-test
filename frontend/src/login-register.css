@@ -1,0 +1,131 @@
+.register-form, .login-form{
+    margin: 0 auto;
+    width: 30%;
+    border: solid 1px white;
+    border-radius: 10px;
+    background-color: white;
+    padding: 3%;
+    position: relative;
+    margin-top: 5%;
+    text-align: center;
+    box-shadow: 5px 5px 5px #283E51;
+}
+
+.register-page, .login-page{
+    background: #4B79A1;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    padding: 15px;
+}
+
+.nav-heading{
+    color: antiquewhite;
+}
+.login-link, .register-link{
+    position: relative;
+    color: white;
+    left: 1100px;
+    border: solid 1px white;
+    padding: 5px;
+    top: 15px;
+    border-radius: 5px;
+    
+}
+
+.login-link:hover, .register-link:hover{
+    text-decoration: none;
+    color: pink;
+    border: solid 1px #ff9068;
+}
+
+span{
+    color: #ff9068;
+}
+
+#register-btn, #login-btn{
+    background-color: #ff9068;
+    border: solid 1px #ff9068;
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
+}
+/*styling for google button from https://codepen.io/stefanjs98/pen/ambVgK*/
+.google-btn {
+    width: 184px;
+    height: 42px;
+    background-color:  #4285f4;
+    border-radius: 2px;
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
+    margin-left: 80px;
+    cursor: pointer;
+}
+.google-btn .google-icon-wrapper {
+      position: absolute;
+      margin-top: 1px;
+      margin-left: 1px;
+      width: 40px;
+      height: 40px;
+      border-radius: 2px;
+      background-color: white;
+      
+    }
+.google-btn .google-icon-wrapper .google-icon {
+      position: relative;
+      margin-top: 11px;
+      margin-left: 11px;
+      width: 18px;
+      height: 18px;
+      float: left;
+      
+    }
+.google-btn .btn-text {
+      float: right;
+      margin: 11px 11px 0 0;
+      color: white;
+      font-size: 14px;
+      letter-spacing: 0.2px;
+      font-family: "Roboto";
+    }
+
+   
+.google-btn .google-icon-wrapper {
+        position: absolute;
+        margin-top: 1px;
+        margin-left: 1px;
+        width: 40px;
+        height: 40px;
+        border-radius: 2px;
+        border-right: grey;
+        
+}
+
+.facebook-btn {
+        width: 184px;
+        height: 42px;
+        background-color: #4C69BA;
+        border-radius: 2px;
+        box-shadow: 0 3px 4px 0 white;
+        margin-left: 80px;
+        cursor: pointer;
+        box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
+        display: flex;
+}
+.facebook-btn .facebook-icon-wrapper .facebook-icon {
+        position: relative;
+        margin-top: 11px;
+        margin-left: 11px;
+        width: 18px;
+        height: 18px;
+        float: left;
+}
+
+.facebook-btn .facebook-btn-text{
+    float: right;
+    color: white;
+    position: relative;
+    margin-left: 20px;
+    top: 10px;
+    font-family: "Roboto";
+    
+}
+
+

@@ -1,0 +1,167 @@
+.create-form, .update-form{
+    margin: 0 auto;
+    width: 30%;
+    border: solid 1px white;
+    border-radius: 10px;
+    padding: 3%;
+    position: relative;
+    margin-top: 5%;
+    text-align: center;
+    background-color: antiquewhite;
+    box-shadow: 5px 5px 5px #283E51;
+}
+span{
+    color: #ff9068;
+}
+
+.nav-heading{
+    color:white;
+}
+
+.App{
+    max-height: 100vh;
+}
+
+.admin-page, .create-page, .user-display-page{
+    background: #4B79A1;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 15px;
+    
+}
+
+.favourites-page{
+    background: #4B79A1;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+}
+.nav{
+    padding: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+   
+}
+th{
+    color: #ff9068;
+}
+
+td{
+    color: white;
+}
+#post-link, #fave-link{
+    position: relative;
+    top: 10px;
+    left: 35%;
+}
+
+
+.add-link, .fave-link{
+    color: #F0CB35;
+}
+
+.add-link, .fave-link:hover{
+    color: #ED8F03;
+    text-decoration: none;
+}
+
+.right-side-nav{
+    position: relative;
+    display: flex;
+    left: 65%;
+    
+}
+.user{
+    position: relative;
+    margin-right: 8px;
+    top: 10px;
+    color: #ff9068;
+}
+.log{
+    border: solid 1px white;
+    padding: 5px;
+    position: relative;
+    top: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.log:hover{
+    text-decoration: none;
+    color: #ff9068;
+    border: solid 1px #ff9068;
+}
+.user-dashboard{
+    position: relative;
+    margin-top: 5%;
+
+}
+#event-display{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#image-div{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 5%;
+    
+}
+
+#image{
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+#trash-icon{
+    color: red;
+}
+
+#edit-icon{
+    color: lightgreen;
+}
+.card{
+    margin: 10px;
+}
+
+.admin-event-display{
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: center;
+}
+
+.upcoming-heading{
+    margin-bottom: 2%;
+    color: #ED8F03;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.fave-heading{
+    text-align: center;
+    color: #ff9068;
+    margin-top: 2%;
+}
+
+.favourites{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer{
+    margin-top: 8%;
+    margin-left: 4%;
+    margin-right: 4%;
+    color: white;
+}
+
+.line-break{
+    background-color: white;
+}

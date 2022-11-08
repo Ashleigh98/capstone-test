@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="login-page"
+>
+  <div
+    className="nav"
+  >
+    <h2
+      className="nav-heading"
+    >
+      Royal
+      <span>
+        Events
+      </span>
+    </h2>
+    <h6>
+      <a
+        className="register-link"
+        href="/register"
+        onClick={[Function]}
+      >
+        Register
+      </a>
+    </h6>
+  </div>
+  <div
+    className="login-form"
+  >
+    <h3>
+      Login
+    </h3>
+    <form
+      className=""
+    >
+      <div
+        className="mb-3"
+      >
+        <label
+          className="form-label"
+          htmlFor="formBasicUsername"
+        >
+          Username
+        </label>
+        <input
+          className="form-control"
+          id="formBasicUsername"
+          name="username"
+          onChange={[Function]}
+          placeholder="Enter username"
+          type="type"
+        />
+      </div>
+      <div
+        className="mb-3"
+      >
+        <label
+          className="form-label"
+          htmlFor="formBasicPassword"
+        >
+          Password
+        </label>
+        <input
+          className="form-control"
+          id="formBasicPassword"
+          name="password"
+          onChange={[Function]}
+          placeholder="Password"
+          type="password"
+        />
+      </div>
+      <button
+        className="btn btn-primary"
+        disabled={false}
+        id="login-btn"
+        onClick={[Function]}
+        type="submit"
+      >
+        Login
+      </button>
+      <p>
+        Or
+      </p>
+      <div
+        className="google-btn"
+        onClick={[Function]}
+      >
+        <div
+          className="google-icon-wrapper"
+        >
+          <img
+            alt="Google Icon"
+            className="google-icon"
+            src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
+          />
+        </div>
+        <p
+          className="btn-text"
+        >
+          <b>
+            Login with google
+          </b>
+        </p>
+      </div>
+      <br />
+      <div
+        className="facebook-btn"
+        onClick={[Function]}
+      >
+        <div
+          className="facebook-icon-wrapper"
+        >
+          <img
+            alt="Facebook Logo"
+            className="facebook-icon"
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/14082/icon_facebook.png"
+          />
+        </div>
+        <p
+          className="facebook-btn-text"
+        >
+          Facebook Login
+        </p>
+      </div>
+    </form>
+  </div>
+</div>
+`;
