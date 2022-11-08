@@ -10,6 +10,7 @@ const GoogleStrategy = require('passport-google-oauth2').Strategy;
 const FacebookStrategy = require('passport-facebook').Strategy
 const User = require('./models/user.model.js')
 require('dotenv').config();
+const path = require('path')
 //const {isAdmin} = require('middleware/auth.js')
 
 //middleware
